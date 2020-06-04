@@ -1,0 +1,10 @@
+adminUser:
+  password: local:ray/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: craft.de.jet@gmail.com
+  token: local:ray/pipelineUser:token
+  username: craft-de-jet
+prow:
+  hmacToken: local:ray/prow:hmacToken
